@@ -7,9 +7,6 @@
     <el-table-column prop="userId"
                      label="userId"
                      width="180" />
-    <el-table-column prop="userName"
-                     label="userName"
-                     width="150" />
     <el-table-column prop="password"
                      label="password"
                      width="180" />
@@ -34,11 +31,6 @@
       <el-form-item label="userId:"
                     :label-width="formLabelWidth">
         <el-input v-model="form.userId"
-                  autocomplete="off" />
-      </el-form-item>
-      <el-form-item label="userName:"
-                    :label-width="formLabelWidth">
-        <el-input v-model="form.userName"
                   autocomplete="off" />
       </el-form-item>
       <el-form-item label="password:"
